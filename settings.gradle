@@ -1,0 +1,4 @@
+rootProject.name = 'instatube'
+
+include 'jwt'
+include 'app'
