@@ -1,5 +1,6 @@
 name: Instatube Server 빌드 & 푸쉬
 on:
+  workflow_dispatch:
   push:
     tags:
       - v*
