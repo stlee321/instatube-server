@@ -30,7 +30,7 @@ jobs:
           - 3306:3306
         env:
           MYSQL_ROOT_PASSWORD: asdf
-          MYSQL_DATABSE: instatube
+          MYSQL_DATABASE: instatube
         options: >-
           --health-cmd "mysqladmin ping -h localhost"
           --health-interval 3s
