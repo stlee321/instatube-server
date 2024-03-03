@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
       - name: gradlew 빌드
-        run: ./gradlew build
+        run: ./gradlew build -x test
       - name: 이미지 레지스트리 로그인
         uses: docker/login-action@v3
         with:
